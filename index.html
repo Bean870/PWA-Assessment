@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <p>Welcome to Rate.Game Database</p>
+
+</div>
+
+<br>
+
+<table class="comment_section">
+
+    <thead>
+        <th>Date</th>
+        <th>User commented</th>
+        <th>Game</th>
+        <th>Comment</th>
+    </thead>
+
+    <tbody>
+        {% for comment in comment_section %}
+        <tr>
+            <td>{{ guess['date'] }}</td>
+            <td>{{ guess['username'] }}</td>
+            <td>{{ guess['game'] }}</td>
+            <td>{{ guess['comment'] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+
+{% endblock %}
