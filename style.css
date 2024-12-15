@@ -8,24 +8,24 @@
 }
 
 body {
-    background: #cbc9c9;
+    background: #f6f4f4;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
 }
 
 #Font, font size and colours for main page
 main {
-    max-width: 800px;
+    max-width: 400px;
     margin: auto;
     padding: 1rem;
-    line-height: 1.7;
+    line-height: 1.4;
 }
 
 .banner {
-    padding: 55px;
+    padding: 45px;
     text-align: center;
     background: #e4aae4;
-    color: white;
+    color: black;
     font-size: 3em;
 }
 
@@ -38,9 +38,9 @@ nav {
 
 nav a {
     display: inline-block;
-    color: #cbc9c9;
+    color: #3d3d3d;
 
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -52,7 +52,7 @@ nav a:hover {
 
 nav a.active {
     background-color: #94cff3;
-    color: rgb(215, 214, 214);
+    color: rgb(82, 82, 82);
 }
 
 .container {
@@ -68,7 +68,7 @@ nav a.active {
 
 .comment_section td, .comment_section th {
     border: 1px solid #cbc9c9;
-    padding: 8px;
+    padding: 4px;
 }
 
 .comment_section tr:nth-child(even){background-color: #cbc9c9;}
@@ -76,17 +76,17 @@ nav a.active {
 .comment_section tr:hover {background-color: #e4aae4;}
 
 .comment_section th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: left;
     background-color: #94cff3;
-    color: rgb(207, 207, 207);
+    color: rgb(74, 74, 74);
 }
 
 #Colour and font for date, time and login pages, as well as comment submissions
 input[type=text], input[type="password"], input[type="date"], input[type="number"], select {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 14px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #cbc9c9;
@@ -97,7 +97,7 @@ input[type=text], input[type="password"], input[type="date"], input[type="number
 input[type=submit] {
     width: 100%;
     background-color: #e4aae4;
-    color: rgb(209, 207, 207);
+    color: rgb(69, 67, 67);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -113,8 +113,8 @@ input[type=submit]:hover {
 #Buttons colour, font and font size
 button {
     background-color: #e4aae4;
-    color: rgb(209, 208, 208);
-    padding: 15px 20px;
+    color: rgb(65, 64, 64);
+    padding: 10px 15px;
     margin: 10px 0;
     border: 5px;
     border-radius: 3px;
